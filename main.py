@@ -11,7 +11,6 @@ def main():
     if len(sys.argv < 2):
         print("Usage: python3 main.py <path_to_book>")
         sys.exit(1)
-4.1423-spark_trial
     print(f"--- Begin Report of {book_path} ---")
     print(f"Found {num_words} total words")
     print()
